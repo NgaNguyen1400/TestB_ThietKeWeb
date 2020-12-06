@@ -3,127 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Cool Summer</title>
     <link rel="StyleSheet" href="./css/style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 </head>
+<style>
+	
+</style>
 
 <body>
     <header>
+		<div class="row" style="max-width:5000px;margin-top:0px">
+		<img src="" ></a>
         <h1>SUMMER</h1>
-        <h3>Slogan go here...</h3>
-        <div class="row">
-            
         </div>
+     
+            
+    
     </header>
-    <nav>
+    <nav >
+		<div style="text-align:center">
         <ul>
-            <li><a data-section="home">Trang chủ </a></li>
-            <li><a data-section="services">Giới thiệu</a></li>
+			
+            <li><a data-section="home" class="active">TRANG CHỦ </a></li>
+            <li><a data-section="services">GIỚI THIỆU</a></li>
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Sản phẩm</a>
+                <a href="javascript:void(0)" class="dropbtn">SẢN PHẨM</a>
                 <div class="dropdown-content">
                     <a data-section="link1">Áo thun</a>
                     <a data-section="link2">Váy công sở</a>
-                    <a data-section="link3">Váy dạ hội</a>
+					<a data-section="link3">Váy dạ hội</a>
+					<a data-section="link3">Váy dạ hội</a>
                 </div>
             </li>
-            <li style="float:right"><a data-section="about">About us</a></li>
-        </ul>
+            <li ><a data-section="about">LIÊN HỆ</a></li>
+		</ul>
+	</div>
     </nav>
 
     <section id="home" class="hideable-section">
-        <div>Home content</div>
-       <!--Sản phẩm-->
+       <div class="row" >
+		  <p style="text-align: center;">SẢN PHẨM BÁN CHẠY NHẤT</p>
+		  <div class="col-3">
+			  <a href=""><img src="images/orange.jpg"></a>
+			  <p>Giày convert cao cổ tim</p>
+			  <div class="cost"><span>600.000 <u>đ</u></span></div>
+			  <a href="#"><button class="">Thêm vào giỏ</button></a>
+		  </div>
+		  <div class="col-3">
+			<a href=""><img src="images/orange.jpg"></a>
+			<p>Giày convert cao cổ tim</p>
+			<div class="cost"><span>600.000 <u>đ</u></span></div>
+			<a href="#"><button class="">Thêm vào giỏ</button></a>
+		  </div>
+		   <div class="col-3">
+			<a href=""><img src="images/orange.jpg"></a>
+			<p>Giày convert cao cổ tim</p>
+			<div class="cost"><span>600.000 <u>đ</u></span></div>
+			<a href="#"><button class="">Thêm vào giỏ</button></a>
+		</div>
+		<div class="col-3">
+			<a href=""><img src="images/orange.jpg"></a>
+			<p>Giày convert cao cổ tim</p>
+			<div class="cost"><span>600.000 <u>đ</u></span></div>
+			<a href="#"><button class="">Thêm vào giỏ</button></a>
+		</div>
+		  
+	   </div> 
 
-	<h2 class="subnav" align="center">Sản phẩm bán chạy nhất hè 2020</h2>
-	<hr class="my-4">
-	<div class="container-fluid padding "> 
-	 	<div class="row products"> 
-	 		<div class="col-md-1"> </div>
-	  		<div class="col-md-3"> 
-	   			<div> 
-	   				<img src="./images/green-02.jpg" alt="Sản phẩm 1" class="img-circle img-thumbnail"> 
-	    			<p>Đồ bộ công sở trẻ trung tươi tắn</p>
-	    			<dl class="dl-horizontal"> 
-		     			<dt>Giá:</dt> 
-					    <dd> <mark><del>500.000 đ</del> / 299.000 đ</mark></dd> 
-	    			</dl> <a href="#" class="btn btn-primary" title="Chi tiết">Mua ngay</a> 
-	    			</dl> <a href="#" class="btn btn-primary" title="Chi tiết">Chi tiết »</a> 
-	   			</div> 
-	  		</div> 
-	  		<div class="col-md-1"> </div>
-	  		<div class="col-md-3"> 
-		   		<div> 
-		   			<img src="./images/purple.JPG" alt="Sản phẩm 2" class="img-circle img-thumbnail"> 
-		    		<p>Đầm tím suông dự tiệc cao cấp</p> 
-			   		<dl class="dl-horizontal"> 
-			     		<dt>Giá:</dt> 
-				    	<dd> <mark><del>600.000 đ</del> / 399.000 đ</mark></dd>   
-		    		</dl> <a href="#" class="btn btn-primary" title="Chi tiết">Mua ngay</a> 
-	    			</dl> <a href="#" class="btn btn-primary" title="Chi tiết">Chi tiết »</a> 
-		   		</div> 
-	  		</div> 
-	  		<div class="col-md-1"> </div>
-			<div class="col-md-3"> 
-			    <div> 
-			    	<img src="./images/green-01.jpg" alt="Sản phẩm 3" class="img-circle img-thumbnail"> 
-			    	<p>Áo thun kết hợp áo khoác ngoài</p> 
-			    	<dl class="dl-horizontal"> 
-				     	<dt>Giá:</dt> 
-				     	<dd> <mark><del>700.000 đ</del> / 499.000 đ</mark></dd> 
-			    	</dl> <a href="#" class="btn btn-primary" title="Chi tiết">Mua ngay</a> 
-	    			</dl> <a href="#" class="btn btn-primary" title="Chi tiết">Chi tiết »</a> 
-			    </div> 
-			</div> 
-		</div>
-		<hr style="color: red;">
-		<div class="row products"> 
-	 		<div class="col-md-1"> </div>
-	  		<div class="col-md-3"> 
-	   			<div> 
-	   				<img src="./images/orange.jpg" alt="Sản phẩm 1" class="img-circle img-thumbnail"> 
-	    			<p>Váy suông cách điệu sang trọng</p> 
-	    			<dl class="dl-horizontal"> 
-		     			<dt>Giá:</dt> 
-					    <dd> <mark><del>500.000 đ</del> / 299.000 đ</mark></dd>
-					</dl> <a href="#" class="btn btn-primary" title="Chi tiết">Mua ngay</a> 
-	    			</dl> <a href="#" class="btn btn-primary" title="Chi tiết">Chi tiết »</a> 	    			 
-	   			</div> 
-	  		</div> 
-	  		<div class="col-md-1"> </div>
-	  		<div class="col-md-3"> 
-		   		<div> 
-		   			<img src="./images/yellow-green-01.jpg" alt="Sản phẩm 2" class="img-circle img-thumbnail"> 
-		    		<p>Trang phục năng động cho ngày hè</p> 
-			   		<dl class="dl-horizontal"> 
-			     		<dt>Giá:</dt> 
-				    	<dd> <mark><del>900.000 đ</del> / 599.000 đ</mark></dd>   
-		    		</dl> <a href="#" class="btn btn-primary" title="Chi tiết">Mua ngay</a> 
-	    			</dl> <a href="#" class="btn btn-primary" title="Chi tiết">Chi tiết »</a> 
-		   		</div> 
-	  		</div> 
-	  		<div class="col-md-1"> </div>
-			<div class="col-md-3"> 
-			    <div> 
-			    	<img src="./images/grey-purple-01.JPG" alt="Sản phẩm 3" class="img-circle img-thumbnail"> 
-			    	<p>Bộ váy thun và áo khoác kết hợp</p> 
-	        			
-	      			
-			    	<dl class="dl-horizontal"> 
-				     	<dt>Giá:</dt> 
-				     	<dd> <dd> <mark><del>850.000 đ</del> / 499.000 đ</mark></dd></dd> 
-			    	</dl> <a href="#" class="btn btn-primary" title="Chi tiết">Mua ngay</a> 
-	    			</dl> <a href="#" class="btn btn-primary" title="Chi tiết">Chi tiết »</a> 
-			    </div> 
-			</div> 
-		</div>
-	</div> 
 	
 	<hr class="my-4">
-	
     </section>
 
     <section id="services" class="hideable-section">
