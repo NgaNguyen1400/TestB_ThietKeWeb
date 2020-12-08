@@ -9,22 +9,33 @@
        
     </head>
     <body>
-        <div class="container">
-            
+       
+
             <div class="menu">
                 <ul>
                     <a href="#"><img src="images/logo-pleats-kora-black-02.png" style="width:130px" alt=""></a>
-                    <li><a href="#">TRANG CHỦ</a></li>
-                    <li><a href="#">GIỚI THIỆU</a></li>
-                    <li><a href="#">SẢN PHẨM</a></li>
+                    <li><a data-section="home">TRANG CHỦ</a></li>
+                    <li><a  data-section="services">GIỚI THIỆU</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">SẢN PHẨM</a>
+                        <div class="dropdown-content">
+                            <a data-section="link1">Áo thun</a>
+                            <a data-section="link2">Váy công sở</a>
+                            <a data-section="link3">Váy dạ hội</a>
+                            
+                        </div>
+                    </li>
                     
-                    <li><a href="#">TIN TỨC</a></li>
-                    <li><a href="#">LIÊN HỆ</a></li>
+                    <li><a data-section="news">TIN TỨC</a></li>
+                    <li><a data-section="about">LIÊN HỆ</a></li>
                     <a href="#"><img src="images/giohang.png" style="width:60px"/></a>
                     
                 </ul>
+
+                
             </div>
-    
+        <section id="home" class="hideable-section">
+           <div class="container">
             <div class="slice">
                 <img src="images/slide.png" width="1200px" alt="ảnh slide">
                 <div class="left">
@@ -109,9 +120,6 @@
                 </div>
             </div>
             
-            
-            
-            
        
             <div class="footer" style="margin-top:100px; background:#01DF01">
                 <div class="about">
@@ -141,6 +149,44 @@
             </div>
          
     
-        </div>
+            </div>
+        </section>
+
+        <section id="services" class="hideable-section">
+            <div>Services content</div>
+        </section>
+    
+        <section id="about" class="hideable-section">
+            <div>About content</div>
+        </section>
+    
+        <section id="link1" class="hideable-section">
+            <div>Link1 content</div>
+        </section>
+    
+        <section id="link2" class="hideable-section">
+            <div>Link2 content</div>
+        </section>
+    
+        <section id="link3" class="hideable-section">
+            <div>Link3 content</div>
+        </section>
+
+        <script>
+            $(function() {
+                $('nav ul li a').click(function() {
+                    // Lấy section để hiển thị
+                    var $section = $('#' + $(this).data('section'));
+    
+                    // Nếu đang hiện thì không làm gì.
+                    // Nếu không, ẩn tất cả các se cho hiện (kiểu fade in) phần mong muốn.
+                    if (!$section.is(':visible')) {
+                        $('.hideable-section').hide();
+                        $section.fadeIn();
+                    }
+                });
+            });
+        </script>
+
     </body>
     </html>
