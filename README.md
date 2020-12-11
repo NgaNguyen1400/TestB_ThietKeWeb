@@ -1,7 +1,7 @@
 # Thiết kế website
 # Kết quả :
 - [x] Header:
-![Header](images/Header.png)
+![Header](Screenshots/Header.png)
 
 - [x] Home:
 ![Home](images/Home.png)
