@@ -18,17 +18,16 @@
     <nav>
         <ul>
             <li><a data-section="home">Home</a></li>
-            <li><a data-section="services">Services</a></li>
+            
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">Products</a>
                 <div class="dropdown-content">
                     <a data-section="link1">Link 1</a>
-                    <a data-section="link2">Link 2</a>
-                    <a data-section="link3">Link 3</a>
+                    <a data-section="images">Images</a>
+                    <a data-section="video">Video</a>
                 </div>
             </li>
-            <li><a data-section="images">Images</a></li>
-            <li><a data-section="video">Video</a></li>
+            <li><a data-section="posts">Posts</a></li>  
 
             <li style="float:right"><a data-section="about">About us</a></li>
         </ul>
@@ -36,19 +35,24 @@
 
     <section id="home" class="hideable-section">
         <div>
-            <article>
-                <h1>London</h1>
-                <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-                <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-              </article>
-            
+          <div style="padding: 10px 50px; margin-bottom: 50px;">
+            <h2 style="text-align: center;margin-bottom: 20px;"><em>I love photography</em></h2>
+            <p style="margin: 0px 70px; text-align: justify;">We have created a fictional "personal" website/blog, 
+                and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
              
         </div>
     </section>
 
-    <section id="services" class="hideable-section">
-        <div>Services content</div>
-    </section>
+    
 
     <section id="images" class="hideable-section">
         <div>
@@ -182,98 +186,7 @@
         </div>
     </section>
 
-    <section id="about" class="hideable-section">
-        <div >
-            <style>
-                body {
-                  font-family: Arial, Helvetica, sans-serif;
-                }
-                
-                * {
-                  box-sizing: border-box;
-                }
-                
-                /* Style inputs */
-                input[type=text], select, textarea {
-                  width: 100%;
-                  padding: 12px;
-                  border: 1px solid #ccc;
-                  margin-top: 6px;
-                  margin-bottom: 16px;
-                  resize: vertical;
-                }
-                
-                input[type=submit] {
-                  background-color: #4CAF50;
-                  color: white;
-                  padding: 12px 20px;
-                  border: none;
-                  cursor: pointer;
-                }
-                
-                input[type=submit]:hover {
-                  background-color: #45a049;
-                }
-                
-                /* Style the container/contact section */
-                .container {
-                  border-radius: 5px;
-                  background-color: #f2f2f2;
-                  padding: 10px;
-                }
-                
-                /* Create two columns that float next to eachother */
-                .column {
-                  float: left;
-                  width: 50%;
-                  margin-top: 6px;
-                  padding: 20px;
-                }
-                
-                /* Clear floats after the columns */
-                .row:after {
-                  content: "";
-                  display: table;
-                  clear: both;
-                }
-                
-                /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-                @media screen and (max-width: 600px) {
-                  .column, input[type=submit] {
-                    width: 100%;
-                    margin-top: 0;
-                  }
-                }
-                </style>
-                <div class="container">
-                    <div style="text-align:center">
-                      <h2>Contact Us</h2>
-                      <p>Swing by for a cup of coffee, or leave us a message:</p>
-                    </div>
-                    <div class="row">
-                      <div class="column">
-                        <img src="/w3images/map.jpg" style="width:100%">
-                      </div>
-                      <div class="column">
-                        <form action="index.html">
-                          <label for="fname">First Name</label>
-                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                          <label for="lname">Last Name</label>
-                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                          <label for="sex">Sex</label>
-                          <select id="sex" name="sex">
-                            <option value="nam">Nam</option>
-                            <option value="nu">Nữ</option>
-                            
-                          </select>
-                          <label for="text">Text</label>
-                          <textarea id="text" name="text" placeholder="Write something.." style="height:170px"></textarea>
-                          <input type="submit" value="Submit">
-                        </form>
-                      </div>
-
-
-        </div>
+    
     </section>
     <section id="video" class="hideable-section">
         <div>
@@ -301,10 +214,7 @@
                   box-sizing: border-box;
                 }
                 
-                body {
-                  margin: 0;
-                  font-family: Arial;
-                }
+                
                 
                 .header {
                   text-align: center;
@@ -360,38 +270,38 @@
   <!-- Photo Grid -->
   <div class="row"> 
     <div class="column">
-      <img src="images/sale-off-1.jpg" style="width:100%">
-      <img src="images/sale-off-2.jpg" style="width:100%">
-      <img src="images/sale-off-3.jpg" style="width:100%">
-      <img src="images/sale-off-4-1-300x225.jpg" style="width:100%">
-      <img src="images/sale-off-5-1-300x225.jpg" style="width:100%">
-      <img src="images/sale-off-6-1-300x225.jpg" style="width:100%">
-      <img src="images/sale-off-6-1-300x225.jpg" style="width:100%">
+      <img src="images/1.jpg" style="width:100%">
+      <img src="images/2.jpg" style="width:100%">
+      <img src="images/3.jpg" style="width:100%">
+      <img src="images/4.jpg" style="width:100%">
+      <img src="images/5.jpg" style="width:100%">
+      <img src="images/6.jpg" style="width:100%">
+      <img src="images/7.jpg" style="width:100%">
     </div>
     <div class="column">
-      <img src="/w3images/underwater.jpg" style="width:100%">
-      <img src="/w3images/ocean.jpg" style="width:100%">
-      <img src="/w3images/wedding.jpg" style="width:100%">
-      <img src="/w3images/mountainskies.jpg" style="width:100%">
-      <img src="/w3images/rocks.jpg" style="width:100%">
-      <img src="/w3images/underwater.jpg" style="width:100%">
+      <img src="/images/8.jpg" style="width:100%">
+      <img src="/images/9.jpg" style="width:100%">
+      <img src="/images/10.jpg" style="width:100%">
+      <img src="/images/11.jpg" style="width:100%">
+      <img src="/images/12.jpg" style="width:100%">
+      <img src="/images/13.jpg" style="width:100%">
     </div>  
     <div class="column">
-      <img src="/w3images/wedding.jpg" style="width:100%">
-      <img src="/w3images/rocks.jpg" style="width:100%">
-      <img src="/w3images/falls2.jpg" style="width:100%">
-      <img src="/w3images/paris.jpg" style="width:100%">
-      <img src="/w3images/nature.jpg" style="width:100%">
-      <img src="/w3images/mist.jpg" style="width:100%">
-      <img src="/w3images/paris.jpg" style="width:100%">
+      <img src="/images/14.jpg" style="width:100%">
+      <img src="/images/15.jpg" style="width:100%">
+      <img src="/images/16.jpg" style="width:100%">
+      <img src="/images/17.jpg" style="width:100%">
+      <img src="/images/18.jpg" style="width:100%">
+      <img src="/images/19.jpg" style="width:100%">
+      <img src="/images/20.jpg" style="width:100%">
     </div>
     <div class="column">
-      <img src="/w3images/underwater.jpg" style="width:100%">
-      <img src="/w3images/ocean.jpg" style="width:100%">
-      <img src="/w3images/wedding.jpg" style="width:100%">
-      <img src="/w3images/mountainskies.jpg" style="width:100%">
-      <img src="/w3images/rocks.jpg" style="width:100%">
-      <img src="/w3images/underwater.jpg" style="width:100%">
+      <img src="/images/21.jpg" style="width:100%">
+      <img src="/images/22.jpg" style="width:100%">
+      <img src="/images/23.jpg" style="width:100%">
+      <img src="/images/24.jpg" style="width:100%">
+      <img src="/images/25.jpg" style="width:100%">
+      <img src="/images/26.jpg" style="width:100%">
     </div>
   </div>
         </div>
@@ -401,50 +311,160 @@
 
     </section>
 
-    <section id="link2" class="hideable-section">
-        <div>Link2 content</div>
-    </section>
+    <section id="posts" class="hideable-section">
+      <style>
+        img {
+          float: left;
+          width: 320px;
+          height: 220px;
+          margin: 0px 20px 20px 20px;
+        }
+        
+      </style>
+      <div class="row">
+        <p><a href="#"><img src="images/hoan-kiem-lake-ha-noi.jpg" alt="Pineapple" ></a>
+          <strong>THÁP RÙA- HÀ NỘI 36 PHỐ PHƯỜNG</strong> <br>
+          Nhắc đến Hà Nội, đến Hồ Gươm thì không thể không kể đến Tháp Rùa – biểu tượng ngàn năm văn hiến của thủ đô. Công trình kiến trúc tuy chỉ 
+          nhỏ bé này nhưng ẩn trong đó là những ý nghĩa lịch sử, dấu tích trường tồn với thời gian mà không một địa danh nào có thể thay thế được.
+          Tháp rùa là một ngọn tháp nhỏ nằm trên một gò đất nhỏ rộng khoảng 350m2 nằm giữa Hồ Gươm, quận Hoàn Kiếm Hà Nội. Với vị trí đắc địa đó, rất thuận lợi
+           để bạn di chuyển từ các điểm khác nhau ở Hà Nội đến với tháp.Du khách thường checkin với Tháp Rùa khi đứng trên bờ Hồ, những bức ảnh từ phía xa
+            có nhìn rõ hình ảnh của tháp in bóng dưới mặt hồ....</p>
+        </div>
+        <hr>
+      <div class="row">
+        <p><a href="#"><img src="images/coffee-plantation.jpg" alt="cà phê" "></a>
+          <strong>DU LỊCH BUÔN MA THUẬT-CÀ PHÊ TÂY NGUYÊN</strong> <br>
+          Nổi tiếng với sự bình yên, nhẹ nhàng, không khí trong lành,... Buôn Ma Thuột khiến nhiều người tưởng rằng nơi này chẳng có gì thú vị, chỉ có cây cối, đồi núi
+           và…cà phê. Nhưng lầm to rồi nhé, thời gian gần đây, Buôn Ma Thuột đã trở thành sự lựa chọn mới lạ cho những tín đồ yêu du lịch khi bị sự xinh đẹp của 
+           nơi này cuốn hút.Và xứ cà phê bây giờ, sẽ cho bạn cảm giác khác hẳn với ngày xưa khi đã thay đổi, nhưng 
+      vẫn giữ được cái hồn thư thả vốn có, những quán cà phê, những địa điểm vui chơi ở đây mang cái nét riêng mà không nơi đâu có được. Nếu là một người yêu thích khám phá...
+          </p>
+        </div>
+        <hr>
+        <div class="row">
+          <p><a href="#"><img src="images/tam-giac-mach-flower_226948210.jpg" alt="tam giác mạch" ></a>
+           <strong> MÙA HOA TAM GIÁC MẠCH HÀ GIANG-ĐỒNG VĂN-CAO BẰNG-THÁC BẢN GIỐC-LẠNG SƠN</strong> <br>
+           Tam giác mạch nhỏ bé, mỏng manh, tím hồng đan xen nhẹ nhàng trên nền đá xám dưới trời xanh, mây trắng Hà Giang khiến bao du khách ngẩn ngơ quên lối về.
+           Du lịch Hà Giang khoảng cuối thu, đầu đông, từ tháng 10 đến đầu tháng 12, bạn sẽ được mãn nhãn trước khung cảnh tuyệt đẹp của miền cao nguyên đá khi “nữ hoàng cách loài hoa tại đây,
+            hoa Tam giác mạch khoe sắc khắp chốn. Từ Quản Bạ, Yên Minh đến Phố Cáo, Đồng Văn, khi bạt ngàn thung lũng,
+            lúc trải thảm, uốn lượn theo nương đồi toàn sắc tím hồng li ti khiến khung cảnh vừa kỳ vĩ vừa thơ mộng, lãng mạn tựa như miền cổ tích....
+          </p>
+          </div>
+  </section>
 
-    <section id="link3" class="hideable-section">
-        <div>Link3 content</div>
-    </section>
+    <section id="about" class="hideable-section">
+      <div >
+          <style>
+              body {
+                font-family: Arial, Helvetica, sans-serif;
+              }
+              
+              * {
+                box-sizing: border-box;
+              }
+              
+              /* Style inputs */
+              input[type=text], select, textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+              }
+              
+              input[type=submit] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                cursor: pointer;
+              }
+              
+              input[type=submit]:hover {
+                background-color: #45a049;
+              }
+              
+              /* Style the container/contact section */
+              .container {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                padding: 10px;
+              }
+              
+              /* Create two columns that float next to eachother */
+              .column {
+                float: left;
+                width: 50%;
+                margin-top: 6px;
+                padding: 20px;
+              }
+              
+              /* Clear floats after the columns */
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+              
+              /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+              @media screen and (max-width: 600px) {
+                .column, input[type=submit] {
+                  width: 100%;
+                  margin-top: 0;
+                }
+              }
+              </style>
+              <div class="container">
+                  <div style="text-align:center">
+                    <h2>Contact Us</h2>
+                    <p>Swing by for a cup of coffee, or leave us a message:</p>
+                  </div>
+                  <div class="row">
+                    <div class="column">
+                      <img src="/w3images/map.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <form action="index.html">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="sex">Sex</label>
+                        <select id="sex" name="sex">
+                          <option value="nam">Nam</option>
+                          <option value="nu">Nữ</option>
+                          
+                        </select>
+                        <label for="text">Text</label>
+                        <textarea id="text" name="text" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                      </form>
+                    </div>
+
+
+                  </div>
+               </div>
+  </section>
 
     <footer>
-      <div class="container">
-        <div class="row">
-
-          <div class="col-4" id="cuahang">
-            <h4>GIỚI THIỆU</h4>
-            
-            <p>Chào mừng bạn đến với ngôi nhà Converse! Tại đây, mỗi một dòng chữ, mỗi chi tiết và hình ảnh đều là những
-               bằng chứng mang dấu ấn lịch sử Converse 100 năm, và đang không ngừng phát triển lớn mạnh.</p>
-        </div>
-          <div class="col-4" id="lienhe">
-            <h4>ĐỊA CHỈ</h4>
-          
-          <div class="diachi">
-              <p><i class="fa fa-home" style="font-size:24px; color: #ffffff"></i> Số 6, phố Viên, P.Đức Thắng, Q.Từ Liêm, Hà Nội.</p>
-              <p><i class="fa fa-phone" style="font-size:24px; color: #ffffff"></i><a href="#"> 0968.888.999</a></p>
-              <p><i class="fa fa-envelope" style="font-size:24px; color: #ffffff"></i><a href="#">PhattrietWeb@gmail.com</a></p>
-
-          </div>
-          </div>
-          <div class="col-4" id="mangxahoi">
-            <h4>MẠNG XÃ HỘI</h4>
-            
-            <div class="social-icons">
-                <a href="#"><i class="fa fa-facebook-f" style="font-size:24px; color: #0033FF;"></i></a>
-                <a href="#"><i class="fa fa-youtube" style="font-size:24px; color: #CC0000;"></i></a>
-                <a href="#"><i class="fa fa-twitter" style="font-size:24px; color: #ffffff;"></i></a>
-                <a href="#"><i class="fa fa-instagram" style="font-size:24px; color: #FF00FF"></i></a>
-                <a href="#"><i class="fa fa-feed" style="font-size:24px; color: #FF6600;"></i></a>
-            </div>
-        </div>
-
-      </div>
+      <style>
+        /*column*/
+.column.left {
+    width: 40%;
+}
+.column.right {
+    width: 60%;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+      </style>
+      
+  
          
-        </div>
-      </div>
+        
     </footer>
 
 

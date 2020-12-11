@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     color: #666;
+    
 }
 
 
@@ -19,7 +20,7 @@ footer{
     margin-top: 20px;
     background: #1abc9c;
     height: 200px;
-    column-count: 3;
+    
 
 }
 /* Tăng kích thước font chữ cho header */
@@ -46,6 +47,7 @@ ul {
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
 }
+
 
 li {
     float: left;
