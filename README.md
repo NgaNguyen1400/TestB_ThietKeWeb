@@ -1,6 +1,8 @@
 # Thiết kế website
-## Coll Summer: trang web giới thiệu các địa điểm du lịch nổi tiếng ở Việt Nam , thích hợp cho gia đình, bạn bè thư giãn vào những ngày nghỉ
-## Nội dung trang web gồm các phần: Header, Home(Lời tựa đầu ), Picture(các địa điểm du lịch nổi tiếng), Video (giới thiệu các địa điểm nổi tiếng ),Posts(bài viết) và trang connect(liên hệ)
+
+### Coll Summer: trang web giới thiệu các địa điểm du lịch nổi tiếng ở Việt Nam , thích hợp cho gia đình, bạn bè thư giãn vào những ngày nghỉ
+### Nội dung trang web gồm các phần: Header, Home(Lời tựa đầu ), Picture(các địa điểm du lịch nổi tiếng), Video (giới thiệu các địa điểm nổi tiếng ),Posts(bài viết) và trang connect(liên hệ) và phần Footer
+### Trang web sử dụng thẻ html, css, javascript
 # Kết quả :
 ### Trang web chế đô max:
 - [x] Header:
