@@ -26,6 +26,7 @@
 ![Footer](images/Footer.PNG)
 
 ### Trang web ở chế độ min
+- [x] Header:
 - [x] Home:
 ![Home](images/Home-min.PNG)
 - [x] Picture:
