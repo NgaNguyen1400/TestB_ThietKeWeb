@@ -4,7 +4,7 @@
 ![Header](C:\Users\Admin\Documents\WebT5T7\static-web\images\Header.png)
 
 - [x] Home:
-![Home](images/Home.png)
+![Home](C:/Users/Admin/Documents/WebT5T7/static-web/images/Header.png)
 
 - [x] Picture:
 ![Picture](../images/Picture1.png)
