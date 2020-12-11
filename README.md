@@ -1,10 +1,10 @@
 # Thiết kế website
 # Kết quả :
 - [x] Header:
-![Header](../images/Header.png)
+![Header](images/Header.png)
 
 - [x] Home:
-![Home](../images/Home.png)
+![Home](images/Home.png)
 
 - [x] Picture:
 ![Picture](../images/Picture1.png)
