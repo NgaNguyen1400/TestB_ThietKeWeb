@@ -1,14 +1,14 @@
 # Thiết kế website
 # Kết quả :
 - [x] Header:
-![Header](http://url/to/Header.png)
+![Header](https://github.com/NgaNguyen1400/static-web/blob/master/images/Header.PNG)
 
 - [x] Home:
-![Home](C:/Users/Admin/Documents/WebT5T7/static-web/images/Header.png)
+![Home](https://github.com/NgaNguyen1400/static-web/blob/master/images/Home.PNG)
 
 - [x] Picture:
-![Picture](../images/Picture1.png)
-![Picture](../images/Picture2.png)
+![Picture](images/Picture1.PNG)
+![Picture](../images/Picture2.PNG)
 ![Picture](../images/Picture3.png)
 
 - [x] Video:
