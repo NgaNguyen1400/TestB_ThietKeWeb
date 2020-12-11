@@ -26,11 +26,11 @@
 ![Footer](images/Footer.PNG)
 
 ### Trang web ở chế độ min
-![Home](./images/Home-min.PNG)
-![Picture](./images/Picture-min.PNG)
-![Video](./images/Video-min.PNG)
-![Post](./images/Post-min.PNG)
-![Contact](./images/Contact-min.PNG)
+![Home](images/Home-min.PNG)
+![Picture](images/Picture-min.PNG)
+![Video](images/Video-min.PNG)
+![Post](images/Post-min.PNG)
+![Contact](images/Contact-min.PNG)
 
 
 
