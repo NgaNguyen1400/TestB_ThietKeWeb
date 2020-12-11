@@ -31,15 +31,17 @@
 
 ### Trang web ở chế độ min
 - [x] Home:
-- [x] Picture:
 ![Home](images/Home-min.PNG)
-- [x] Video:
+
+- [x] Picture:
 ![Picture](images/Picture-min.PNG)
 - [x] Post:
 ![Video](images/Video-min.PNG)
-- [x] Contact:
+
+- [x] Post:
 ![Post](images/Post-min.PNG)
-- [x]:
+
+- [x] Contact:
 ![Contact](images/Contact-min.PNG)
 
 
