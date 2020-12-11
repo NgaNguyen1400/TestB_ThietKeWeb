@@ -35,7 +35,8 @@
 
 - [x] Picture:
 ![Picture](images/Picture-min.PNG)
-- [x] Post:
+
+- [x] Video:
 ![Video](images/Video-min.PNG)
 
 - [x] Post:
