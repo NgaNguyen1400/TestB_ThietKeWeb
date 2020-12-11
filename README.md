@@ -2,7 +2,7 @@
 # Kết quả :
 ### Trang web chế đọ max:
 - [x] Header:
-![Header](Header.PNG)
+![Header](images/Header.PNG)
 
 - [x] Home:
 ![Home](images/Home.PNG)
@@ -26,10 +26,15 @@
 ![Footer](images/Footer.PNG)
 
 ### Trang web ở chế độ min
+- [x] Home:
 ![Home](images/Home-min.PNG)
+- [x] Picture:
 ![Picture](images/Picture-min.PNG)
+- [x] Video:
 ![Video](images/Video-min.PNG)
+- [x] Posts:
 ![Post](images/Post-min.PNG)
+- [x] Contact:
 ![Contact](images/Contact-min.PNG)
 
 
