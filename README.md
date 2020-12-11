@@ -26,14 +26,14 @@
 ![Footer](images/Footer.PNG)
 
 ### Trang web ở chế độ min
-- [x] Header:
 - [x] Home:
-![Home](images/Home-min.PNG)
 - [x] Picture:
+![Home](images/Home-min.PNG)
+- [x]Video:
 ![Picture](images/Picture-min.PNG)
-- [x] Video:
+- [x] Post:
 ![Video](images/Video-min.PNG)
-- [x] Posts:
+- [x] Contact:
 ![Post](images/Post-min.PNG)
 - [x] Contact:
 ![Contact](images/Contact-min.PNG)
