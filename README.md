@@ -1,28 +1,28 @@
 # Thiết kế website
 # Kết quả :
 - [x] Header:
-![Header](./images/Header.png)
+![Header](../images/Header.png)
 
 - [x] Home:
-![Home](./images/Home.png)
+![Home](../images/Home.png)
 
 - [x] Picture:
-![Picture](./images/Picture1.png)
-![Picture](./images/Picture2.png)
-![Picture](./images/Picture3.png)
+![Picture](../images/Picture1.png)
+![Picture](../images/Picture2.png)
+![Picture](../images/Picture3.png)
 
 - [x] Video:
-![Video](./images/Video.png)
+![Video](../images/Video.png)
 
 - [x] Posts:
-![Post](./images/Post1.png)
-![Post](./images/Post2.png)
+![Post](../images/Post1.png)
+![Post](../images/Post2.png)
 
 - [x] Contact:
-![Contact](./images/Contact.png)
+![Contact](../images/Contact.png)
 
 - [x] Footer:
-![Footer](./images/Footer.png)
+![Footer](../images/Footer.png)
 
 ## Trang web ở chế độ min
 ![Home](./images/Home-min.png)
