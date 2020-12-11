@@ -15,7 +15,13 @@ header {
     height: 120px;
 }
 
+footer{
+    margin-top: 20px;
+    background: #1abc9c;
+    height: 200px;
+    column-count: 3;
 
+}
 /* Tăng kích thước font chữ cho header */
 
 header h1 {
