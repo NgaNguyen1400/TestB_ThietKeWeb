@@ -1,7 +1,7 @@
 # Thiết kế website
 # Kết quả :
 - [x] Header:
-![Header](../master/images/Header.png)
+![Header](http://url/to/Header.png)
 
 - [x] Home:
 ![Home](C:/Users/Admin/Documents/WebT5T7/static-web/images/Header.png)
